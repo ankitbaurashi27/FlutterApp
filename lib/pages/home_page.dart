@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -5,6 +7,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     int days = 30;
     String name = "Ankit";
 
@@ -19,6 +22,5 @@ class HomePage extends StatelessWidget {
         ),
         drawer: Drawer(),
      );
-        
   }
 }
