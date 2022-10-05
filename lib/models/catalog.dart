@@ -1,3 +1,4 @@
+
 class CatalogModel{
 
 static final items =  [
@@ -21,4 +22,5 @@ class Item{
   final String image;
 
   Item({required this.id, required this.name, required this.desc, required this.price, required this.color, required this.image});
+  
 }

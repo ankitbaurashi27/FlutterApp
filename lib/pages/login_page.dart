@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
 
 import 'package:first_app/utils/routes.dart';
 import 'package:flutter/material.dart';
@@ -11,9 +11,11 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  // ignore: non_constant_identifier_names
   final _Formkey = GlobalKey<FormState>();
 
   @override
+  // ignore: duplicate_ignore
   Widget build(BuildContext context) {
    // ignore: prefer_const_constructors
    return Material(
